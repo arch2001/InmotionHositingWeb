@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.project.TS_002">
+        <methods>
+          <include name="beforeTestCase"/>
+          <include name="browserOpen"/>
+          <include name="tc_006_emailMandatoryValidation"/>
+          <include name="tc_008_maxLengthEmailField"/>
+          <include name="tc_009_emailDomainFormats"/>
+          <include name="tc_007_validEmailAccepted"/>
+          <include name="afterTestCase"/>
+          <include name="tc_005_invalidEmailFormat"/>
+        </methods>
+      </class> <!-- org.project.TS_002 -->
+      <class name="org.project.TS_003">
+        <methods>
+          <include name="tc_013_verifyShowPasswordToggle"/>
+          <include name="afterTestCase"/>
+          <include name="browserOpen"/>
+          <include name="beforeTestCase"/>
+        </methods>
+      </class> <!-- org.project.TS_003 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
